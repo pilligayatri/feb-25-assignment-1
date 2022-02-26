@@ -1,0 +1,14 @@
+n=int(input("enter n elements"))
+l=[]
+positive=[]
+negative=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+    
+for i in range(n):
+    if l[i]>=0:
+        positive.append(l[i])
+    else:
+        negative.append(l[i])
+print(positive,"",negative)    
